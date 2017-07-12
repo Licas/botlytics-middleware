@@ -19,8 +19,6 @@ In your app.js add requirements for botlytics-middleware package and set:
 * a unique bot id (optional)
 
 ```javascript
-var BotlyticsMiddleware = require('botlytics-middleware')({
-			token: "<<BOTLYTICS_TOKEN>>",
-    		botId: "<<BOT_ID>>"
+var BotlyticsMiddleware = require('botlytics-middleware')({ token: "<<BOTLYTICS_TOKEN>>", botId: "<<BOT_ID>>"
 });
 ```
